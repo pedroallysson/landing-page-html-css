@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+}
+
+h1{
+    width: 434px;
+    height: 47px;
+    font: 900 40px/46.96px Raleway;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#33A8DB, #1472B7);
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+
+h2{
+    width: 746px;
+    height: 76px;
+    font: 700 32px Raleway;
+    letter-spacing: 1.9px;
+    text-transform: uppercase;
+    color: rgba(51, 168, 219, 1);
+    margin: 10px auto 0px;
+}
+
+.banner{
+    width: auto;
+    height: 600px;
+    border-bottom: 1px solid #33A8DB;
+    background-image: url('../images/banner.png'), linear-gradient(rgb(1, 17, 24), rgba(2, 22, 29, 0.9),rgb(1, 17, 24));
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 25px;
+}
+
+.banner-content{
+    width: 530px;
+    height: 393px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    width: 268px;
+    height: 268px;
+    margin: auto;
+    background-color: rgba(2, 22, 29, 0.4);
+    border-radius: 50%;
+}
+
+.logo img{
+    width: 268px;
+    height: 268px;
+    object-fit:contain;
+    object-position: center;
+}
+
+.banner-content p{
+    height: 46px;
+    font: 400 20px/23.48px Raleway;
+    color: #FFFFFF;
+}
+
+.banner-content button{
+    width: 326px;
+    height: 57px;
+    margin-top: 30px;
+    padding: 19px 20px;
+    font: 900 16px/18.78px Raleway;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(49, 168, 221, 1);
+    background-color: transparent;
+    border-image: linear-gradient(rgba(59, 161, 205, 1),rgba(21, 114, 183, 1)) 5 / 2px;
+    letter-spacing: 2.1px;
+}
+
+#course-content{
+    background-color: black;
+    width: auto;
+    height: 400px;
+    padding: 60px 40px 60px;
+    text-align: center;
+    font: 400 16px/18px Raleway;
+    color: white;
+}
+
+#course-content p{
+    width: 792px;
+    height: 38px;
+    margin: 0px auto;
+    font: 400 16px/18px Raleway; 
+}
+
+.modules-list{
+    width: 570px;
+    color: white;
+    margin: 17px auto;
+}
+
+.module{
+    border: 1px solid rgba(51, 168, 219, 1);
+    border-radius: 57px;
+    background-color: rgba(37, 37, 37, 1);
+    box-shadow: inset -4px 6px 5px black;
+    padding: 16px;
+    margin: 20px;
+    text-align: center;
+}
+
+.module span{
+    font: 400 16px/18px Raleway;
+    color: rgba(51, 168, 219, 1);
+}
+
+#transform-world{
+    width: auto;
+    height: 440px;
+    background-image: url('../images/woman-code.png'), linear-gradient(rgba(37, 37, 37, 1), rgba(37, 37, 37, 1));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 1px 3px 1px 0px;
+    border-style: solid;
+    border-color: rgba(51, 168, 219, 1);
+}
+
+#transform-world p{
+    width: 244px;
+    height: 141px;
+    margin: 111px 208px;
+    color: white;
+    font: 900 40px/46.96px Raleway;
+    text-shadow: rgba(51, 168, 219, 1) 3px 2px;
+    text-transform: lowercase;
+}
+
+#professional-challenges{
+    padding-top: 60px;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+#professional-challenges p{
+    width: 792px;
+    height: 76px;
+    color: white;
+    font: 16px/18.78px Raleway;
+    padding: 50px 50px 90px;
+    margin: 10px auto 0px;
+}
+
+#professional-chalenges img{
+    object-fit: cover;
+    width: 659px;
+    height: 429px;
+    margin: 32px 66px 90px;
+}
+
+footer{
+    height: 170px;
+    width: auto;
+    background-image: linear-gradient(rgb(0, 9, 12), rgba(1, 18, 24, 0.9));
+    border: 1px solid rgba(51, 168, 219, 1);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+footer img{
+    width: 310px;
+    height: 44px;
+    margin: 59px auto -10px;
+}
+
+footer p{
+    color: white;
+    font: 400 16px/18.78px Raleway;
+}
+
+footer a{
+    font: 700 16px/18.78px Raleway;
+    text-decoration: none;
+    color: rgba(51, 168, 219, 1);
+}
