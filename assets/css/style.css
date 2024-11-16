@@ -172,7 +172,7 @@ footer{
     padding-bottom: 15px;
 }
 
-footer img{
+footer .dio-logo{
     width: 310px;
     height: 44px;
     margin: 59px auto -10px;
